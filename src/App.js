@@ -1,7 +1,7 @@
-import './App.css';
+import './css/App.css';
 import React from 'react';
-import Cardd from './Cardd'
-import GuessCount from './GuessCount'
+import Cardd from './components/Cardd'
+import GuessCount from './components/GuessCount'
 class App extends React.Component {
     render() {
         return (
