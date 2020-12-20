@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d4ae175-ada8-48f0-a737-9419f1c47480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/HallOfFame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/AppTitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/HallOfFame.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cardd.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cardd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/AppTitle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/AppTitle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/GuessCount.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/GuessCount.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +69,7 @@
       <workItem from="1608393503008" duration="2345000" />
       <workItem from="1608396937911" duration="367000" />
       <workItem from="1608397438465" duration="1783000" />
-      <workItem from="1608400331071" duration="8260000" />
+      <workItem from="1608400331071" duration="11647000" />
     </task>
     <servers />
   </component>

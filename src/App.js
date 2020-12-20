@@ -36,16 +36,16 @@ class App extends Component {
             <div className="memory">
                 <AppTitle title={this.titleTuto()} />
                 <GuessCount guesses={0} />
-                <Cardd card="😀" feedback="hidden" onClick={this.handleCardClick} />
-                <Cardd card="🎉" feedback="justMatched" onClick={this.handleCardClick} />
-                <Cardd
-                    card="💖"
-                    feedback="justMismatched"
-                    onClick={this.handleCardClick}
-                />
-                <Cardd card="🎩" feedback="visible" onClick={this.handleCardClick} />
-                <Cardd card="🐶" feedback="hidden" onClick={this.handleCardClick} />
-                <Cardd card="🐱" feedback="justMatched" onClick={this.handleCardClick} />
+                {
+                    this.cards.map((card,index)=>(
+                        <Cardd
+                            key={index}
+                            card={card}
+                            feedback="visible"
+                            onClick={this.handleCardClick}
+                        />
+                    ))
+                }
                 {won && <p>GAGNÉ !</p>}
             </div>
         )
